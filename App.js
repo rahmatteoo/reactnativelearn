@@ -5,6 +5,7 @@ import { createStackNavigator } from 'react-navigation-stack';
 import BottomTabNavigation from './src/component/BottomTabNavigation';
 import HomeScreenSRT35 from './src/screens/SubTask/SRT35_CustomizingHeadBar/HomeScreenSRT35';
 import UserScreenSRT35 from './src/screens/SubTask/SRT35_CustomizingHeadBar/UserScreenSRT35';
+import BottomBarNavigationSRT39 from './src/screens/SubTask/SRT39_CreatingBottomNavigation/BottomBarNavigationSRT39';
 
 const AppNavigator = createStackNavigator({
   // Home: {
@@ -18,9 +19,12 @@ const AppNavigator = createStackNavigator({
   },
   UserScreenSRT35: {
     screen: UserScreenSRT35,
+  },
+  BottomBarNavigationSRT39: {
+    screen: BottomBarNavigationSRT39
   }
 }, {
-  initialRouteName: 'HomeScreenSRT35',
+  initialRouteName: 'BottomBarNavigationSRT39',
   defaultNavigationOptions: {
     headerStyle: {
       backgroundColor: 'green'
