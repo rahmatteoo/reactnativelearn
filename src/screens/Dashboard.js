@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import {View} from 'react-native';
 // import { Container, Header, Body, Title, View,Text, Left, Icon, Right } from 'native-base';
-import DashboardDetail from './dashboard/DashboardDetail';
+import DashboardDetail from './dashboardScreen/DashboardDetail';
 import SpoonACularList from './Contoh/SpoonACularList';
 import JsonPlaceHolderAxiosList from './Contoh/JsonPlaceHolderAxiosList';
 import JsonPlaceHolderFetchList from './Contoh/JsonPlaceHolderFetchList';
 import TastyList from './Contoh/TastyList';
-import BookList from './books/BookList';
+import BookList from './booksScreen/BookList';
 // import { ScrollView } from 'react-native';
 import { createAppContainer } from 'react-navigation';
 import { createStackNavigator } from 'react-navigation-stack';
