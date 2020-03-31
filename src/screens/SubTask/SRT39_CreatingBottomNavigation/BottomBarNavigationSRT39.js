@@ -4,14 +4,16 @@ import { createBottomTabNavigator } from 'react-navigation-tabs';
 import HomeScreenSRT35 from '../SRT35_CustomizingHeadBar/HomeScreenSRT35';
 import UserScreenSRT35 from '../SRT35_CustomizingHeadBar/UserScreenSRT35';
 import Iconi from '../../../images/buku.png';
+import ImagePickerScreenSRT51 from '../SRT51_ImagePicker/ImagePickerScreenSRT51';
 
 
 export default AppNavigator = createBottomTabNavigator({
     Home: HomeScreenSRT35,
-    Users: UserScreenSRT35
+    Users: UserScreenSRT35,
+    ImagePicker: ImagePickerScreenSRT51
 }, {
     initialRouteName: 'Home',
-    order: ['Home', 'Users'],
+    order: ['Home', 'Users', 'ImagePicker'],
     tabBarOptions: {
         showLabel: true,
         style: {
